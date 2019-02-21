@@ -1,17 +1,10 @@
-[![Version](https://img.shields.io/cocoapods/v/JOCircularSlider.svg?style=flat)](https://cocoapods.org/pods/JOCircularSlider)
-[![Platform](https://img.shields.io/cocoapods/p/JOCircularSlider.svg?style=flat)](https://cocoapods.org/pods/JOCircularSlider)
-[![Language](https://img.shields.io/badge/language-Swift-orange.svg?style=flat)]()
-[![License](https://img.shields.io/cocoapods/l/JOCircularSlider.svg?style=flat)](https://cocoapods.org/pods/JOCircularSlider)
-[![Twitter: @ouraigua](https://img.shields.io/badge/twitter-@ouraigua-blue.svg?style=flat)](https://twitter.com/ouraigua)
-
-
 # Deluge Magnet
 
 Deluge Magnet is a lightweight MacOS app which handles forwarding magnet links to Deluge app.
 
 ## Requirements
 
-- iOS 10.0+
+- MacOS 10.13+
 - Xcode 10.0
 
 ## Installation
