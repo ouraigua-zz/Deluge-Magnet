@@ -11,6 +11,8 @@
 		AFEE2B51221F03CD0077EEED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEE2B50221F03CD0077EEED /* ViewController.swift */; };
 		AFEE2B53221F03CE0077EEED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFEE2B52221F03CE0077EEED /* Assets.xcassets */; };
 		AFEE2B56221F03CE0077EEED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFEE2B54221F03CE0077EEED /* Main.storyboard */; };
+		AFEE2BB0221F6C980077EEED /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = AFEE2BA9221F64200077EEED /* LICENSE */; };
+		AFEE2BB1221F6C980077EEED /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AFEE2BA8221F64200077EEED /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -138,7 +140,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFEE2BB0221F6C980077EEED /* LICENSE in Resources */,
 				AFEE2B53221F03CE0077EEED /* Assets.xcassets in Resources */,
+				AFEE2BB1221F6C980077EEED /* README.md in Resources */,
 				AFEE2B56221F03CE0077EEED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
