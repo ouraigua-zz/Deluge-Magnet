@@ -20,6 +20,9 @@
 		AFEE2B52221F03CE0077EEED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFEE2B55221F03CE0077EEED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AFEE2B57221F03CE0077EEED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFEE2BA8221F64200077EEED /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AFEE2BA9221F64200077EEED /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		AFEE2BAE221F66220077EEED /* Deluge-Magnet.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Deluge-Magnet.podspec"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +39,8 @@
 		AFEE2B42221F03CD0077EEED = {
 			isa = PBXGroup;
 			children = (
-				AFEE2B4D221F03CD0077EEED /* Deluge Magnet */,
+				AFEE2BA7221F64060077EEED /* Config */,
+				AFEE2B4D221F03CD0077EEED /* Deluge-Magnet */,
 				AFEE2B4C221F03CD0077EEED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,7 +53,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AFEE2B4D221F03CD0077EEED /* Deluge Magnet */ = {
+		AFEE2B4D221F03CD0077EEED /* Deluge-Magnet */ = {
 			isa = PBXGroup;
 			children = (
 				AFEE2B4E221F03CD0077EEED /* AppDelegate.swift */,
@@ -58,7 +62,17 @@
 				AFEE2B54221F03CE0077EEED /* Main.storyboard */,
 				AFEE2B57221F03CE0077EEED /* Info.plist */,
 			);
-			path = "Deluge Magnet";
+			path = "Deluge-Magnet";
+			sourceTree = "<group>";
+		};
+		AFEE2BA7221F64060077EEED /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				AFEE2BAE221F66220077EEED /* Deluge-Magnet.podspec */,
+				AFEE2BA9221F64200077EEED /* LICENSE */,
+				AFEE2BA8221F64200077EEED /* README.md */,
+			);
+			name = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -101,7 +115,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AFEE2B46221F03CD0077EEED /* Build configuration list for PBXProject "Deluge Magnet" */;
+			buildConfigurationList = AFEE2B46221F03CD0077EEED /* Build configuration list for PBXProject "Deluge-Magnet" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -277,7 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 28UW7GL832;
-				INFOPLIST_FILE = "Deluge Magnet/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Deluge-Magnet/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -295,7 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 28UW7GL832;
-				INFOPLIST_FILE = "Deluge Magnet/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Deluge-Magnet/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -309,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AFEE2B46221F03CD0077EEED /* Build configuration list for PBXProject "Deluge Magnet" */ = {
+		AFEE2B46221F03CD0077EEED /* Build configuration list for PBXProject "Deluge-Magnet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AFEE2B59221F03CE0077EEED /* Debug */,
